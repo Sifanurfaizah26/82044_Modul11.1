@@ -20,6 +20,7 @@ plugins {
 }
 
 
+
 android {
     namespace = "com.example.racetracker"
     compileSdk = 35
