@@ -30,6 +30,7 @@ class RaceParticipant(
     private val progressIncrement: Int = 1,
     private val initialProgress: Int = 0
 ) {
+
     init {
         require(maxProgress > 0) { "maxProgress=$maxProgress; must be > 0" }
         require(progressIncrement > 0) { "progressIncrement=$progressIncrement; must be > 0" }
