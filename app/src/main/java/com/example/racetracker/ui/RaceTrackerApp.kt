@@ -79,6 +79,7 @@ fun RaceTrackerApp() {
             }
             raceInProgress = false
         }
+
     }
     RaceTrackerScreen(
         playerOne = playerOne,
