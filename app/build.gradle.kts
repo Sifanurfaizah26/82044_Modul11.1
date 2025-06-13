@@ -19,6 +19,7 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
+
 android {
     namespace = "com.example.racetracker"
     compileSdk = 35
